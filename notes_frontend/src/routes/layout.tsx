@@ -13,7 +13,7 @@ export const onGet: RequestHandler = async ({ cacheControl }) => {
 export default component$(() => {
   useStyles$(styles);
   return (
-    <main>
+    <main style={{ background: "var(--color-bg)" }}>
       <Slot />
     </main>
   );

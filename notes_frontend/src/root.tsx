@@ -30,7 +30,7 @@ export default component$(() => {
         <RouterHead />
         {!isDev && <ServiceWorkerRegister />}
       </head>
-      <body lang="en">
+      <body lang="en" style={{ background: "var(--color-bg)", color: "var(--color-text)" }}>
         <RouterOutlet />
       </body>
     </QwikCityProvider>
